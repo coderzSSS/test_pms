@@ -14,4 +14,8 @@ ideally it should have a long-running event loop, here we simply reuse the timer
 3. **product reference service** - a static lookup service, could improve performance by enabling cache.
 4. **portfolio service** - used to react on price ticks and calculate market value in realtime.
  
-there is also a `PortfolioPrinter` utility to help print to console
+there is also a `PortfolioPrinter` utility to help print to console.
+
+# Extra
+I'm currently working on a pure kotlin trading framework called [KOFA](https://github.com/coderzSSS/kofa), it would be much easier and efficient to implement similar projects
+ 
